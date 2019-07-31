@@ -6,7 +6,8 @@ F(0) = 0,   F(1) = 1
 F(N) = F(N - 1) + F(N - 2), for N > 1.
 Given N, calculate F(N).
 
-1. 暴力求解法
+1. 暴力递归求解法
+问题是会有大量重复计算问题 因为左边fib(N - 1) 肯定是计算过fib(N - 2), fib(N - 2)右侧又计算一遍 
 """
 def fib(N):
   if N == 0 or N == 1:
