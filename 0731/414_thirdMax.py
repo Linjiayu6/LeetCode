@@ -12,6 +12,7 @@ If it does not exist, return the maximum number.
 The time complexity must be in O(n).
 """
 
+# ======= 1. ===========
 class Solution(object):
     def thirdMax(self, nums):
         """
@@ -35,3 +36,23 @@ class Solution(object):
         return L[-1]
 
 Solution().thirdMax([1, 1])
+
+# ======= 2. ===========
+class Solution1(object):
+    def thirdMax(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        # # set(nums): 集合（set）是一个无序的不重复元素序列
+        # 1. 去重set(xxx) 2. 排序  3. 序列
+        L = list(sorted(set(nums), reverse = True))
+        if len(L) >= 3:
+            return L[:3][-1]
+        elif len(L) == 0:
+            return None
+        else:
+            return L[-1]
+
+
+Solution1().thirdMax([5, 5, 5, 2, 3, 1, 2])
