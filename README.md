@@ -1,4 +1,4 @@
-# CS fundamentals
+# CS Fundamentals
 
 ## Introduction
 - Algorithms and Data structures
