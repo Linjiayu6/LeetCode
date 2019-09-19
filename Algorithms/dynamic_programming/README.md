@@ -10,6 +10,18 @@
 - Tags: DP
 - python: [Why is looping over range() in Python faster than using a while loop?](https://stackoverflow.com/questions/869229/why-is-looping-over-range-in-python-faster-than-using-a-while-loop) Reason: range() is implemented in C;
 
-### 2. [322. Coin Change](https://leetcode-cn.com/problems/coin-change/)
+### 2. [322. Coin Change](https://leetcode-cn.com/problems/coin-change/) TODO
+- MID
+- Tags: DP
+- TODO
+
+### 3. [300. Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/submissions/) TODO
+- MID
+- Tags: DP
+- TODO
+
+### 4. [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) TODO
+
+### 5. [139. Word Break](https://leetcode-cn.com/problems/word-break/)
 - MID
 - Tags: DP
