@@ -10,3 +10,8 @@
 - EASY
 - Tags: DP
 - Date: 2019.09.19
+
+### 3. [392. Is Subsequence](https://leetcode-cn.com/problems/is-subsequence/solution/392-pan-duan-zi-xu-lie-by-lin-jy/)
+- EASY
+- Tags: Double Pointer
+- Date: 2019.09.20
