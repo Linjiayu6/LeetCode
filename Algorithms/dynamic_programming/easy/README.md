@@ -15,3 +15,8 @@
 - EASY
 - Tags: Double Pointer
 - Date: 2019.09.20
+
+### 4. [746. Min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
+- EASY
+- Tags: DP
+- Date: 2019.09.20
