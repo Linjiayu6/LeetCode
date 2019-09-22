@@ -20,3 +20,8 @@
 - EASY
 - Tags: DP
 - Date: 2019.09.20
+
+### 5. [1025. Divisor Game](https://leetcode-cn.com/problems/divisor-game/solution/1025-divisor-game-by-lin-jy/)
+- EASY
+- Tags: DP; Math;
+- Date: 2019.09.22
