@@ -17,9 +17,10 @@ class Solution(object):
             if _lowest > prices[i]:
                 _lowest = prices[i]
             # minus transaction fee
-            elif _lowest < prices[i] - 2:
-                result += prices[i] - _lowest - 2
-                _lowest = prices[i]
+            # 需要重复看该求解思路
+            elif _lowest < prices[i] - fee:
+                result += prices[i] - _lowest - fee
+                _lowest = prices[i] - fee
 
         return result
 
