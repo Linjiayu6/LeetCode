@@ -74,7 +74,6 @@ def tranverse(node):
         _L.append(node.val)
         tranverse(node.left)
         tranverse(node.right)
-          
 
 """
 2. 中序遍历
@@ -88,7 +87,6 @@ def tranverse_mid(node):
         tranverse_mid(node.right)
         
 tranverse_mid(root)
-print _L_mid
 
 """
 3. 后序遍历
@@ -103,3 +101,17 @@ def tranverse_post(node):
 
 tranverse_post(root)
 print _L_post
+
+
+# 2.1 树的深度求解
+def depth(node):
+    # if node不为空
+    if node is not None:
+        a = depth(node.left)
+        b = depth(node.right)
+    else:
+        return 0
+    
+    return max(a, b) + 1
+
+print 'the depth of tree is:' + str(depth(root))

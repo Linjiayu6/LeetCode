@@ -63,3 +63,15 @@ def tranverse_mid(node):
 - 递归完成操作;
 - 理解前序中序后序的遍历;
 
+### 2.1 求解树的深度
+- 转化为求解递归遍历的次数
+```
+def depth(node):
+    # if node不为空
+    if node is not None:
+        a = depth(node.left)
+        b = depth(node.right)
+    else:
+        return 0
+    return max(a, b) + 1
+```
