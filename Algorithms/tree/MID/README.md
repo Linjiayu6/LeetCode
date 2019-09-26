@@ -18,3 +18,9 @@
 - MID
 - Tags: Tree; postorder traversal; left->right->root(BT);
 - Date: 2019.09.26
+
+### 4. [654. Maximum Binary Tree](https://leetcode-cn.com/problems/maximum-binary-tree/submissions/)
+- MID
+- Tags: Tree;
+- Date: 2019.09.26
+- 176 ms, 在所有 Python 提交中击败了99.47%的用户
