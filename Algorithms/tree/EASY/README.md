@@ -13,3 +13,8 @@
 - Date: 2019.09.25
 - 820 ms, 在所有 Python 提交中击败了99.61%的用户
   
+### 3. [617. Merge Two Binary Trees](ttps://leetcode-cn.com/problems/merge-two-binary-trees/)
+- EASY
+- Tags: Tree; preorder traversal; root->left->right(BT)
+- Date: 2019.09.26
+- 64 ms, 在所有 Python 提交中击败了95.61%的用户
