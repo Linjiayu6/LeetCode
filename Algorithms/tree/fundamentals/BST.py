@@ -102,6 +102,41 @@ def tranverse_post(node):
 tranverse_post(root)
 print _L_post
 
+"""
+  1
+ / \
+2   3
+   /
+  4
+广度优先搜索
+1. root.val = 1
+2. root.left = 2
+3. root.right = 3
+4. root.left.left
+5. root.left.right
+6. root.right.left = 4
+7. root.right.right
+"""
+def bfs(root):
+    if root is not None:
+        print root.val
+
+        def bfs_traverse(nodeList):
+            L = []
+            for child in nodeList:
+              if child:
+                  print child.val
+                  bfs(child.left)
+                  bfs(child.right)
+
+        bfs_traverse([root.left, root.right])
+#    3
+#  /   \
+# 1     5
+#        \ 
+#         7
+bfs(root)
+        
 
 # 2.1 树的深度求解
 def depth(node):

@@ -27,7 +27,7 @@
        7
 ```
 
-### 1.1 实现思路
+### 1 实现思路
 ```
 root = createNode(value)
 node创建并结点插入到root中
@@ -40,10 +40,14 @@ node创建并结点插入到root中
     (2.2) 则递归调用该函数, 找到可以插入的点, 执行(1)
 ```
 
-### 1.2 前序遍历
+## 2. Depth First Search
+- DPS深度优先搜索包含前序、中序、后序
+- [深度优先搜索](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/2/traverse-a-tree/7/)
+
+### 2.1 前序遍历
 - 根节点 -> 左子树 -> 右子树
 
-### 1.3 中序遍历
+### 2.2 中序遍历
 - 左子树 -> 根节点 -> 右子树
 ```
 # example
@@ -54,16 +58,31 @@ def tranverse_mid(node):
         tranverse_mid(node.right)
 ```
 
-### 1.4 后序遍历
+### 2.3 后序遍历
 - 左子树 -> 右子树 -> 根节点
 
-### 总结
+### 2.4 总结
 - 理解树的结构, 结点有左子树和右子树;
 - 从root结点开始从上至下去找具体的某个结点;
 - 递归完成操作;
 - 理解前序中序后序的遍历;
 
-### 2.1 求解树的深度
+## 3. Breadth First Search
+- 从上到下, 从左到右(层次遍历)
+- [广度优先搜索](https://leetcode-cn.com/explore/learn/card/data-structure-binary-tree/2/traverse-a-tree/8/)
+
+```
+思路: 
+L = [] # 栈的层级代表该数的层级
+level = 0 # 初始化该level为0
+
+- 1. if len(L) == level: 新建个层级 L = [[]]
+- 2. 数据: L[level].append(node.val)
+- 3. 处理左子树, 和1,2步骤一样 唯一不同的是level + 1
+-    处理右子树, 和1,2步骤一样 唯一不同的是level + 1
+```
+
+## 4.求解树的深度
 - 转化为求解递归遍历的次数
 ```
 def depth(node):
