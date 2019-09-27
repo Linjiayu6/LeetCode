@@ -31,3 +31,10 @@
 - Date: 2019.09.26
 - 28 ms, 在所有 Python 提交中击败了95.97%
 的用户
+
+### 6. [429. N-ary Tree Level Order Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/solution/429-n-ary-tree-level-order-traversal-by-lin-jy/)
+- EASY
+- Tags: Tree; BFS;
+- Date: 2019.09.27
+- 800 ms, 在所有 Python 提交中击败了75.15%
+的用户

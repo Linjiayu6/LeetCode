@@ -24,3 +24,10 @@
 - Tags: Tree;
 - Date: 2019.09.26
 - 176 ms, 在所有 Python 提交中击败了99.47%的用户
+
+### 5. [102. Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/)
+- MID
+- Tags: Tree; BFS;
+- Date: 2019.09.27
+- 40 ms, 在所有 Python 提交中击败了99.22%的用户
+
