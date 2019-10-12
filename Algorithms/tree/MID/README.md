@@ -25,9 +25,14 @@
 - Date: 2019.09.26
 - 176 ms, 在所有 Python 提交中击败了99.47%的用户
 
-### 5. [102. Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/)
+### 5.[102. Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/)
 - MID
 - Tags: Tree; BFS;
 - Date: 2019.09.27
 - 40 ms, 在所有 Python 提交中击败了99.22%的用户
 
+### 6.[1008. Construct Binary Search Tree from Preorder Traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+- MID
+- Tags: Tree; BFS; Preorder Traversal;
+- Date: 2019.10.11
+- 56 ms, 在所有 Python 提交中击败了65.22%的用户
