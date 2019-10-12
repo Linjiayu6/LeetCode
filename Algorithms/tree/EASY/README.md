@@ -29,12 +29,22 @@
 - EASY
 - Tags: Tree; traverse; tree depth;
 - Date: 2019.09.26
-- 28 ms, 在所有 Python 提交中击败了95.97%
-的用户
+- 28 ms, 在所有 Python 提交中击败了95.97%的用户
 
 ### 6. [429. N-ary Tree Level Order Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/solution/429-n-ary-tree-level-order-traversal-by-lin-jy/)
 - EASY
 - Tags: Tree; BFS;
 - Date: 2019.09.27
-- 800 ms, 在所有 Python 提交中击败了75.15%
-的用户
+- 800 ms, 在所有 Python 提交中击败了75.15%的用户
+
+### 7. [101. Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree/)
+- EASY
+- Tags: Tree; Symmetric Tree; Iteration;
+- Date: 2019.10.11
+- 32 ms, 在所有 Python 提交中击败了32.15%的用户
+
+### 8. [938. Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/)
+- EASY
+- Tags: Tree; BST; Iteration;
+- Date: 2019.10.11
+- 216 ms, 在所有 Python 提交中击败了99.75%的用户
