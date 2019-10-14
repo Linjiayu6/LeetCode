@@ -48,3 +48,9 @@
 - Tags: Tree; BST; Iteration;
 - Date: 2019.10.11
 - 216 ms, 在所有 Python 提交中击败了99.75%的用户
+
+### 9. [700. Search in a Binary Search Tree](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
+- EASY
+- Tags: Tree; BST;
+- Date: 2019.10.14
+- 64 ms, 在所有 Python 提交中击败了98.92%的用户
