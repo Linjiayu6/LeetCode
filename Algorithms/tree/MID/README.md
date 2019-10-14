@@ -36,3 +36,9 @@
 - Tags: Tree; BFS; Preorder Traversal;
 - Date: 2019.10.11
 - 56 ms, 在所有 Python 提交中击败了65.22%的用户
+
+### 7.[701. Insert into a Binary Search Tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/submissions/)
+- MID
+- Tags: Tree; BFS;
+- Date: 2019.10.14
+- 100 ms, 在所有 Python 提交中击败了96.12%的用户
