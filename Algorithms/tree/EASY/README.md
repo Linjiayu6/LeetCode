@@ -27,7 +27,7 @@
 
 ### 5. [104. Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 - EASY
-- Tags: Tree; traverse; tree depth;
+- Tags: Tree; traverse; Depth;
 - Date: 2019.09.26
 - 28 ms, 在所有 Python 提交中击败了95.97%的用户
 
@@ -55,3 +55,8 @@
 - Date: 2019.10.14
 - 64 ms, 在所有 Python 提交中击败了98.92%的用户
 
+### 10. [111. Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+- EASY
+- Tags: Tree; BST; Depth;
+- Date: 2019.10.14
+- 28 ms, 在所有 Python 提交中击败了100%的用户

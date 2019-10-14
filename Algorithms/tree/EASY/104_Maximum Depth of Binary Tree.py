@@ -23,3 +23,28 @@ class Solution(object):
         _right_num = self.maxDepth(root.right)
 
         return max(_left_num, _right_num) + 1
+
+"""
+depth = 0
+1. root is not None: depth = 1
+2. root.left root.right 各作为结点 重复1步骤
+   结果 = max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+
+
+eg:
+    1
+   /\
+  2  3
+ / \
+4   5
+
+depth = 1
+- H(2) = max(H(4), H(5)) + 1
+- H(4) = 1
+- H(5) = 1
+- H(3)  = 1
+- H(1) = max(H(2), H(3)) + 1
+
+每一个结点都是如此运算
+root = max(root.left数量, root.right数量) + 1
+"""
