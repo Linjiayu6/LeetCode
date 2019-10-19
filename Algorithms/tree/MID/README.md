@@ -42,3 +42,21 @@
 - Tags: Tree; BFS;
 - Date: 2019.10.14
 - 100 ms, 在所有 Python 提交中击败了96.12%的用户
+
+### 8.[113. Path Sum II](https://leetcode-cn.com/problems/path-sum-ii/)
+- MID
+- Tags: Tree; Path;
+- Date: 2019.10.17
+- 56 ms, 在所有 Python 提交中击败了26.03%的用户
+
+### 9.[257. Binary Tree Paths](https://leetcode-cn.com/problems/binary-tree-paths/)
+- MID
+- Tags: Tree; Path;
+- Date: 2019.10.18
+- 12 ms, 在所有 Python 提交中击败了98.92%的用户
+
+### 10.[129. Sum Root to Leaf Numbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers)
+- MID
+- Tags: Tree; Path;
+- Date: 2019.10.18
+- 16 ms, 在所有 Python 提交中击败了95.99%的用户

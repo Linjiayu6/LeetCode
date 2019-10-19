@@ -60,3 +60,9 @@
 - Tags: Tree; BST; Depth;
 - Date: 2019.10.14
 - 28 ms, 在所有 Python 提交中击败了100%的用户
+
+### 11. [112. Path Sum](https://leetcode-cn.com/problems/path-sum/)
+- EASY
+- Tags: Tree; PathSum;
+- Date: 2019.10.16
+-  ms, 在所有 Python 提交中击败了%的用户

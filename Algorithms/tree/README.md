@@ -6,9 +6,12 @@
 
 2. 树最大深度, 最小深度, 树的深度;
 
+3. 对称树🌲;
+
+4. 从根节点至叶子🍃, 路径遍历; 路径求和;
+
 ### [二叉搜索树](https://leetcode-cn.com/explore/learn/card/introduction-to-data-structure-binary-search-tree/)
 
 1. 二叉树; 搜索二叉树(BST); 对称二叉树;
 
 ### [N叉树](https://leetcode-cn.com/explore/learn/card/n-ary-tree/)
-
