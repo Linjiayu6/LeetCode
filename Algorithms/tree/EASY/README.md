@@ -66,3 +66,16 @@
 - Tags: Tree; PathSum;
 - Date: 2019.10.16
 -  ms, 在所有 Python 提交中击败了%的用户
+
+### 12. [100. Same Tree](https://leetcode-cn.com/problems/same-tree/solution/)
+- EASY
+- Tags: Tree; SameTree; Recursive; Iteration;
+- Date: 2019.11.04
+- 36 ms, 在所有 Python 提交中击败了95.56%的用户
+
+
+### 13. [501. Find Mode in Binary Search Tree](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)
+- EASY
+- Tags: Tree; inorderTraverse; BST;
+- Date: 2019.11.04
+- 36 ms, 在所有 Python 提交中击败了12.26%的用户

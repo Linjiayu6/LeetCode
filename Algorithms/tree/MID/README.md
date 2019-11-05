@@ -60,3 +60,9 @@
 - Tags: Tree; Path;
 - Date: 2019.10.18
 - 16 ms, 在所有 Python 提交中击败了95.99%的用户
+
+### 11.[98. Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree)
+- MID
+- Tags: BST; inorder_traverse;
+- Date: 2019.11.04
+- 28 ms, 在所有 Python 提交中击败了97.98%的用户

@@ -9,7 +9,7 @@ class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if root is None:
             return []
-        
+
         L = []
         def traverse(node, level):
             if node:
