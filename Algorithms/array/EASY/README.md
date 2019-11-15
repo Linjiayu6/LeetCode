@@ -12,3 +12,10 @@
 - Tags: Array;
 - Date: 2019.11.06
 - 104 ms, 在所有 Python 提交中击败了23.17%的用户
+
+### 3. [26. Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+- EASY
+- Tags: Array;
+- Date: 2019.11.06
+- 96 ms, 在所有 Python 提交中击败了97.73%的用户
+- 
