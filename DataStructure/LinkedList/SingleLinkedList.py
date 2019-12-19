@@ -8,7 +8,6 @@ class Node:
 
 class SingleLinkedList:
     def __init__ (self):
-        # head设置为私有属性，禁止外部访问
         self.__head = None
 
     """是否为空"""
@@ -17,7 +16,7 @@ class SingleLinkedList:
 
     """返回链表长度"""
     def length (self):
-        # cur游标，用来移动遍历节点
+        # cur移动遍历节点
         cur, count = self.__head, 0
         while cur is not None:
             cur = cur.next
@@ -40,7 +39,7 @@ class SingleLinkedList:
     """
     尾插法: 在单链表尾部增加一个节点
         (head)n1 => n2 => None
-        (head)n1 => n2 => n3 => None
+        (head)n1 => n2 => node => None
     """
     def insert_tail (self, data):
         newNode = Node(data)
@@ -53,6 +52,10 @@ class SingleLinkedList:
             cur.next = newNode
 
     """在指定位置插入元素"""
+    """
+        (head)n1 => n2 => None
+        (head)n1 => node => n2 => None
+    """
     def insert (self, pos, data):
         # 头插入
         if pos <= 0:
@@ -135,7 +138,6 @@ class SingleLinkedList:
                     cur = cur.next
             return False
         return False
-
 
 def main():
     Li = SingleLinkedList()
