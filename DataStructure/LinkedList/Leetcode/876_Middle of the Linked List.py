@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+"""链表中间值, 并返回该链表"""
+
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -20,5 +22,24 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
+        # 为空, 则返回空
+        if head is None:
+            return None
+
         len = self.length(head)
-        if len / 2 == 0:
+        # 长度为1的时候, 直接返回head
+        if len == 1:
+            return head
+        # 其他情况
+        _count = len / 2
+        _index, cur = 1, head
+        """
+        1 -> 2 -> 3 -> None
+          len = 3, _count = 3 / 2 = 1 return cur.next
+        1 -> 2 -> 3 -> 4 -> None
+          len = 4, _count = 4 / 2 = 2 return cur.next
+        """
+        while _index < _count:
+            _index += 1
+            cur = cur.next
+        return cur.next
