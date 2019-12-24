@@ -15,3 +15,7 @@
   
 ## [328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/solution/328-odd-even-linked-list-by-lin-jy/) [MID]
 - 单向链表; 遍历; 重新赋值链表;
+
+## [21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/submissions/)
+- 单向链表; 遍历; 值合并排序; 构建链表;
+

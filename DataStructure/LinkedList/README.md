@@ -25,9 +25,21 @@
 - 删除: 从头、从尾、从任意位置
 - 查询: 某值是否在链表中、遍历所有值
 - 其他: 长度、是否为空
+- 判断是否有 **环** 存在
+
+### [1.4 链表中的双指针](https://leetcode-cn.com/explore/learn/card/linked-list/194/two-pointer-technique/743/)
+- 给定一个链表，判断链表中是否有环
+- 解题思路1: 哈希表
+- 解题思路2: 双指针技巧
+```
+一个快指针, 一个慢指针
+一个安全的选择是每次移动慢指针一步，而移动快指针两步。每一次迭代，快速指针将额外移动一步。如果环的长度为 M，经过 M 次迭代后，快指针肯定会多绕环一周，并赶上慢指针。
+```
 
 ## 2. DoubleLinkedList
 [数据结构(六)之双向链表](https://www.jianshu.com/p/fb5a4169a618)
+
+[Leetcode 双链表](https://leetcode-cn.com/explore/learn/card/linked-list/196/doubly-linked-list/756/)
 
 ### 2.1 结构、优缺点
 - 结构: 见上参考链接
@@ -37,7 +49,7 @@
 
 ### 2.2 双向链表操作
 **head、tail 标识, 操作和单向链表差不多, 注意双向指针的操作即可**
-- 增加: 从头、从尾、从任意位置
-- 删除: 从头、从尾、从任意位置
+- [增加: 从头、从尾、从任意位置](https://leetcode-cn.com/explore/learn/card/linked-list/196/doubly-linked-list/757/)
+- [删除: 从头、从尾、从任意位置](https://leetcode-cn.com/explore/learn/card/linked-list/196/doubly-linked-list/758/)
 - 查询: 某值是否在链表中、遍历所有值、逆向遍历所有值
 - 其他: 长度、是否为空
