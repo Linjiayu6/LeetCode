@@ -23,7 +23,7 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-        pos, _dict = 0, {}
+        _dict = {}
 
         if head is None:
             return None
@@ -31,7 +31,6 @@ class Solution(object):
             if head in _dict:
                 return head
             # 位置存入
-            _dict[head] = pos
+            _dict[head] = 1
             head = head.next
-            pos += 1
         return head
