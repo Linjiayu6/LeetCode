@@ -19,3 +19,5 @@
 ## [21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/submissions/)
 - 单向链表; 遍历; 值合并排序; 构建链表;
 
+## [141. Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
+- 单向循环链表; 是否存在环; 快慢爽指针; 数据字典
