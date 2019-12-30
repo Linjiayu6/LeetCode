@@ -21,3 +21,9 @@
 
 ## [141. Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
 - 单向循环链表; 是否存在环; 快慢爽指针; 数据字典
+
+## [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/solution/)
+- 连个链表相交的结点; 数据字典哈希表; 双指针;
+
+## [19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) [MID]
+- 删除操作; 遍历;
