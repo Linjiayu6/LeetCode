@@ -1,7 +1,7 @@
 # 链表结构
 
 [链表](https://www.ranxiaolang.com/static/python_algorithm/chapter3/index.html)
-## 1. SingleLinkedList
+## 1. SingleLinkedList
 [数据结构(五)之链表结构](https://www.jianshu.com/p/7a2d072a6c3e)
 
 ### 1.1 链表和数组区别?

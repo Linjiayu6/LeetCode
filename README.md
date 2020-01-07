@@ -14,6 +14,4 @@ Divide into specific topics for algorithms and data structures.
 ### ./History [discard]
 Do leetcode practice by recording specific date.
 
-## Algorithms
-
-### Array
+### ./DataStructure [doing]
