@@ -2,7 +2,7 @@
 
 [链表](https://www.ranxiaolang.com/static/python_algorithm/chapter3/index.html)
 ## 1. SingleLinkedList
-[数据结构(五)之链表结构](https://www.jianshu.com/p/7a2d072a6c3e)
+[数据结构(五)之链表结构](https://www.jianshu.com/p/7a2d072a6c3e)
 
 ### 1.1 链表和数组区别?
 数组可以存储多个元素, 但是缺点是
@@ -48,8 +48,8 @@
 - 缺点: 删除或插入某个节点, 需要处理4个节点的引用; 内存空间占用大。
 
 ### 2.2 双向链表操作
-**head、tail 标识, 操作和单向链表差不多, 注意双向指针的操作即可**
+**head、tail 标识, 操作和单向链表差不多, 注意双向指针的操作即可**
 - [增加: 从头、从尾、从任意位置](https://leetcode-cn.com/explore/learn/card/linked-list/196/doubly-linked-list/757/)
 - [删除: 从头、从尾、从任意位置](https://leetcode-cn.com/explore/learn/card/linked-list/196/doubly-linked-list/758/)
-- 查询: 某值是否在链表中、遍历所有值、逆向遍历所有值
+- 查询: 某值是否在链表中、遍历所有值、逆向遍历所有值
 - 其他: 长度、是否为空
