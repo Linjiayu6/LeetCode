@@ -27,3 +27,12 @@
 
 ## [19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) [MID]
 - 删除操作; 遍历;
+
+## [707. Design Linked List](https://leetcode-cn.com/problems/design-linked-list/) [MID]
+- 设计单链表; 增删改查;
+
+## [206. Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)
+- 反转链表; *递归; *迭代;
+
+## [203. Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+- 删除元素; 增加一个多余的结点;
