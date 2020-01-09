@@ -36,3 +36,9 @@
 
 ## [203. Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements/)
 - 删除元素; 增加一个多余的结点;
+
+## [234. Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/)
+- 回文/对称结构;
+
+## [2. Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/) [MID]
+- 两个链表相加;
