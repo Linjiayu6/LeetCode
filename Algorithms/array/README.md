@@ -52,10 +52,21 @@
 ### 9. [11. Container With Most Water](https://leetcode-cn.com/problems/container-with-most-water/)
 
 - MID-1
-- Tags: brute force; double pointer; 
+- Tags: 双指针, 求面积问题。
 - *[与许多小伙伴一样，我很疑惑为什么双指针法不会错过最优解.
 我百思不得其解，直到我画了一棵树.](https://leetcode-cn.com/problems/container-with-most-water/solution/zhi-guan-de-shuang-zhi-zhen-fa-jie-shi-by-na-kong/)
 
 ## Summary
 - More thinking;
 - More practice;
+
+### 10. [4. Median of Two Sorted Arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+- HARD
+- 需要注意边界问题
+- 1. 归并方法
+- 2. 二分查找 ?
+
+### 11. [442. Find All Duplicates in an Array](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)
+- MID
+- 字典方式
+

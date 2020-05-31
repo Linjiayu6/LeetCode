@@ -8,7 +8,7 @@
 
 # 由下至上, 找规律, 其实跟爬楼梯一样的道理, 从小问题出发解决问题。
 
-class Solution(object):
+class Solution1(object):
     def lengthOfLIS(self, nums):
         """
         :type nums: List[int]
@@ -24,4 +24,20 @@ class Solution(object):
             _Store[i] = _temp
         return max(_Store)
 
-print Solution().lengthOfLIS([1,3,6,7,9,4,10,5,6])
+# print Solution().lengthOfLIS([1,3,6,7,9,4,10,5,6])
+
+
+
+class Solution(object):
+    def lengthOfLIS(self, nums):
+        _len = len(nums)
+        if _len == 0 or _len == 1:
+            return _len
+        else:
+            _tempArr = [1] * _len
+            for i in range(1, _len):
+                for j in range(i - 1, -1, -1):
+                    if nums[j] < nums[i]:
+                        _tempArr[i] = max(_tempArr[j] + 1, _tempArr[i])
+                        
+        return max(_tempArr)
