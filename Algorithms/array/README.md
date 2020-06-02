@@ -70,3 +70,10 @@
 - MID
 - 字典方式
 
+### 12.[674. Longest Continuous Increasing Subsequence](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
+
+### 13.[56. Merge Intervals](https://leetcode-cn.com/problems/merge-intervals/)
+
+### 14.[面试题 01.07. Rotate Matrix LCCI](https://leetcode-cn.com/problems/rotate-matrix-lcci/)
+
+### 15.[面试题 01.08. Zero Matrix LCCI](https://leetcode-cn.com/problems/zero-matrix-lcci/)
